@@ -164,13 +164,11 @@ namespace Letters.ViewModels
                 }
             }
 
-            if (intersectLetters.Count <= 0)
+            if (intersectLetters.Count < 0)
             {
                 RemoveAllItems(SendedLetters);
                 return;
             }
-
-            RemoveAllItems(SendedLetters);
 
             SendedLetters = intersectLetters;
         }
