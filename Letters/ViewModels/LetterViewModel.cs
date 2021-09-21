@@ -148,11 +148,11 @@ namespace Letters.ViewModels
 
         private void UseFilter(object parameter)
         {
-            //if ((bool)parameter == false)
-            //{
-            //    SendedLetters = GetLetters();
-            //    return;
-            //}
+            if ((bool)parameter == false)
+            {
+                SendedLetters = GetLetters();
+                return;
+            }
 
             ObservableCollection<Letter> intersectLetters = new ObservableCollection<Letter>();
 
