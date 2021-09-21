@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7TDb//PUF4kr3EsDifl9i7LCRY/bBU/CHq9+VM2bFVpy2ro1ljzEq3MrRCKkc1NN2cBqX5pxM4jjRD+FdbNZNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\davae\\source\\repos\\Letters\\Letters\\Letters.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\davae\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
